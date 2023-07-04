@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    width: 100dvw;
+    height: 100dvh;
+  
+    display: flex;
+    flex-direction: column;
+  }
+  
+  div {
+    width: 100%;
+    height: 100%;
+    display: none;
+  }
+  
+  .cor01 {
+    display: block;
+  }
+  
+  .cor01, .cor04 {
+    background-color: #93c47d;
+  }
+  
+  .cor02, .cor05 {
+    background-color: #4a86e8;
+  }
+  
+  .cor03 {
+    background-color: #b4a7d6;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .cor02 {
+      display: block;
+    }
+  }
+  
+  @media screen and (min-width: 1280px) {
+    div {
+      display: block;
+    }
+  }
